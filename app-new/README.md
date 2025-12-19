@@ -1,14 +1,14 @@
-# Chippin Mobile App
+# Chipin
 
 A modern, intuitive mobile application for expense splitting and peer-to-peer USDC payments built with React Native and Expo.
 
 ## Overview
 
-Chippin's mobile app provides a seamless interface for managing shared expenses, splitting bills, and sending USDC payments directly to friends on the Solana blockchain without the hassle of copying wallet addresses or switching to external payment apps.
+Chipin provides a seamless interface for managing shared expenses, splitting bills, and sending USDC payments directly to friends on the Solana blockchain without the hassle of copying wallet addresses or switching to external payment apps.
 
 ## Core Features & User Flow
 
-### 🔐 Authentication & Onboarding
+### Authentication & Onboarding
 
 **Initial Setup:**
 - Users launch the app
@@ -23,7 +23,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 3. Fills up the otp sent to email
 4. User logs in successfully
 
-### 👥 Friend Management
+### Friend Management
 
 **Discovering & Adding Friends:**
 
@@ -55,7 +55,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 9. User B taps "Accept" → both are now friends
 10. Both users see each other in friends list
 
-### 🏦 Group Management
+### Group Management
 
 **Creating Groups:**
 - Tap "Create Group" from groups tab
@@ -99,7 +99,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 5. User C auto-joins the group
 6. All three users now see the same group with expenses
 
-### 💰 Expense Tracking & Settlement
+### Expense Tracking & Settlement
 
 **Adding Expenses:**
 - From group screen, tap "Add Expense"
@@ -136,7 +136,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 13. Both are displayed "Settled"
 14. Group balance updates: User C and D still owe $25 each
 
-### 💸 Direct Payments
+### Direct Payments
 
 **Sending Money to Friends:**
 - Navigate to Home page
@@ -160,7 +160,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 - Enter amount and confirm
 - Useful for sending to external wallets
 
-### 🤝 Lending & Borrowing
+### Lending & Borrowing
 
 **Lending Money (Direct):**
 - Navigate to Lending tab
@@ -212,7 +212,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 14. User B gets notification: "200 USDC received from User A"
 15. After 1 month, User B repays from "Money Borrowed" screen
 
-### 🎁 Rewards & Referrals
+### Rewards & Referrals
 
 **Accessing Referral Code:**
 - Navigate to Profile tab
@@ -251,7 +251,7 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 12. Wallet balance increases by 20 USDC
 13. Points reset, new progress bar starts
 
-### 📊 Activity Feed
+### Activity Feed
 
 **Real-Time Activity Tracking:**
 - Home screen shows recent activities at the top
@@ -260,15 +260,15 @@ Chippin's mobile app provides a seamless interface for managing shared expenses,
 - Push notifications for important activities
 
 **Activity Types:**
-- 💳 **Expenses**: "You added expense 'Lunch' in Roommates group"
-- 💸 **Payments**: "You sent 50 USDC to John"
-- 🤝 **Settlements**: "Mike settled up $35 with you"
-- 👥 **Friends**: "Sarah accepted your friend request"
-- 🏦 **Groups**: "You joined 'Office Lunch' group"
-- 💰 **Lending**: "You lent 100 USDC to Alex"
-- 📨 **Borrowing**: "Emma sent you a borrow request"
-- 🎁 **Rewards**: "You earned 100 points from referral"
-- 💵 **Cashback**: "You received 20 USDC cashback"
+- **Expenses**: "You added expense 'Lunch' in Roommates group"
+- **Payments**: "You sent 50 USDC to John"
+- **Settlements**: "Mike settled up $35 with you"
+- **Friends**: "Sarah accepted your friend request"
+- **Groups**: "You joined 'Office Lunch' group"
+- **Lending**: "You lent 100 USDC to Alex"
+- **Borrowing**: "Emma sent you a borrow request"
+- **Rewards**: "You earned 100 points from referral"
+- **Cashback**: "You received 20 USDC cashback"
 
 **Filtering & Search:**
 - Filter by activity type
@@ -362,4 +362,4 @@ MIT License
 
 ## Support
 
-For help or questions: support@chippin.app
+For help or questions: chipinsolana@gmail.com
