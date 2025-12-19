@@ -8,10 +8,10 @@ Chippin is a split-sharing application that enables users to manage group expens
 
 ## Core Features & Flow
 
-### 🔐 Authentication Flow
+### Authentication Flow
 Users authenticate through Privy, which handles wallet connection and user identity. Upon successful authentication, users receive a JWT token for subsequent API requests. The authentication system supports multiple wallet types and ensures secure access to all platform features.
 
-### 👥 Friend Management System
+### Friend Management System
 
 **Adding Friends:**
 - **Friend Requests**: Users can search for other users and send friend requests
@@ -26,7 +26,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 4. User A reviews and accepts the request
 5. Both users are now connected as friends
 
-### 🏦 Group Management System
+### Group Management System
 
 **Creating & Managing Groups:**
 - Users can create expense groups with custom names and descriptions
@@ -44,7 +44,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 3. New members scan QR or enter code to join
 4. All members can now add expenses and view group balances
 
-### 💰 Expense Tracking & Settlement
+### Expense Tracking & Settlement
 
 **Adding Expenses:**
 - Users add expenses to groups with description, amount, and date
@@ -68,7 +68,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 4. User B clicks "Settle" and sends 25 USDC to User A within the app
 5. Balance updates: User C, D still owe $25 each
 
-### 💸 Payment System
+### Payment System
 
 **Friend-to-Friend Payments:**
 - Users can send USDC directly to friends without knowing their wallet address
@@ -93,7 +93,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 5. Transaction is processed on Solana blockchain
 6. Both parties receive notification and transaction appears in history
 
-### 🤝 Lending & Borrowing System
+### Lending & Borrowing System
 
 **Lending Money:**
 - Direct and straightforward process
@@ -125,7 +125,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 4. User A accepts → 100 USDC is sent to User B
 5. Loan is recorded and tracked until repayment
 
-### 🎁 Rewards & Referral System
+### Rewards & Referral System
 
 **Points Program:**
 - Users earn points through various activities (primarily referrals)
@@ -153,7 +153,7 @@ Users authenticate through Privy, which handles wallet connection and user ident
 6. System automatically sends 20 USDC cashback to User A's wallet
 7. Points counter resets to 0
 
-### 📊 Activity Tracking
+### Activity Tracking
 
 **Comprehensive Activity Feed:**
 - All user actions are logged: expenses added, payments sent, friend requests, group joins, etc.
@@ -230,4 +230,4 @@ MIT License
 
 ## Support
 
-For issues or questions, contact: support@chippin.app
+For issues or questions, contact: chipinsolana@gmail.com
