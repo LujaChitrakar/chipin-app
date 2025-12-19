@@ -8,6 +8,10 @@ You can create groups instantly, add your friends, add your expenses and settle 
 You can add your friends and transfer money to them with just few taps track all your expenses and never worry about unpaid settlements.
 
 ---
+### demo video: 
+https://www.loom.com/share/6669555eb3e440ed977ebca5a2fbc5fd
+
+---
 
 ### Friend Management
 
